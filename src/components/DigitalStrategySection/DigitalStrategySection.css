@@ -1,0 +1,56 @@
+
+.digital-strategy {
+  width: 100%;
+  min-height: 122px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  padding: 8px 12px 7px;
+  box-sizing: border-box;
+}
+
+.digital-strategy__title {
+  margin: 0;
+  font-size: 11px;
+  line-height: 14px;
+  font-weight: 700;
+  color: #333;
+  text-align: center;
+}
+
+.digital-strategy__icon {
+  margin-top: 17px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.digital-strategy__button {
+  margin-top: 15px;
+  padding: 0 9px;
+  height: 14px;
+  border: none;
+  border-radius: 1px;
+  background-color: #092b32;
+  color: #fff;
+  font-size: 5px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.digital-strategy__button:hover {
+  background-color: #16444c;
+}
+
+@media (max-width: 480px) {
+  .digital-strategy__title {
+    font-size: 10px;
+  }
+}
+
+.digital-strategy__action {
+  margin-top: 15px;
+  /* transform: scale(0.45); */
+  transform-origin: top center;
+}

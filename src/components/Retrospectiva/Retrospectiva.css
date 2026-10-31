@@ -1,0 +1,40 @@
+.retrospectiva {
+  width: 100%;
+  padding: 12px;
+}
+
+.retrospectiva-heading {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+  color: #333;
+  margin: 0 0 28px;
+}
+
+.retro-carousel {
+  width: 100%;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+}
+
+.retro-carousel::-webkit-scrollbar {
+  display: none;
+}
+
+.retro-carousel-track {
+  display: flex;
+  gap: 16px;
+}
+
+@media (max-width: 768px) {
+  .retro-card {
+    flex: 0 0 calc(50% - 8px);
+  }
+}
+
+@media (max-width: 480px) {
+  .retro-card {
+    flex: 0 0 85%;
+  }
+}

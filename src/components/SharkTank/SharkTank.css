@@ -1,0 +1,45 @@
+.shark-tank {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 28px;
+  align-items: center;
+  margin-top: 90px;
+}
+
+.shark-tank-content h2 {
+  font-size: 28px;
+  font-weight: 500;
+  margin-bottom: 14px;
+}
+
+.shark-tank-content p {
+  font-size: 14px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.shark-tank-content button {
+  margin-top: 12px;
+}
+
+.shark-tank-poster {
+  display: flex;
+  justify-content: center;
+}
+
+.shark-tank-poster img {
+  width: 65%;
+  height: auto;
+  object-fit: contain;
+}
+
+@media (max-width: 768px) {
+  .shark-tank {
+    grid-template-columns: 1fr;
+    margin-top: 50px;
+  }
+
+  .shark-tank-poster img {
+    width: 80%;
+  }
+}

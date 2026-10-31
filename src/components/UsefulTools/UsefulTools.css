@@ -1,0 +1,37 @@
+.useful-tools {
+  width: 100%;
+  padding: 12px;
+}
+
+.useful-tools-heading {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+  color: #333;
+  margin: 0 0 30px;
+}
+
+.useful-tools-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .useful-tools-list {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .resource-item {
+    flex: 0 0 calc(50% - 10px);
+  }
+}
+
+@media (max-width: 480px) {
+  .resource-item {
+    flex: 0 0 100%;
+  }
+}

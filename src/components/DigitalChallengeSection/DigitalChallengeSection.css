@@ -1,0 +1,31 @@
+
+.digital-challenge {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 28px;
+  align-items: start;
+}
+
+.digital-challenge-content {
+  text-align: left;
+}
+
+.digital-challenge-content h2 {
+  font-size: 28px;
+  font-weight: 500;
+  margin: 0 0 14px;
+  text-align: left;
+}
+
+.digital-challenge-content p {
+  font-size: 14px;
+  line-height: 1.6;
+  margin-bottom: 14px;
+  text-align: left;
+}
+
+@media (max-width: 768px) {
+  .digital-challenge {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,14 @@
+.action-button {
+  background-color: #10272d;
+  color: white;
+  border: none;
+  padding: 12px 16px;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  text-align: left;
+}
+
+.action-button:hover {
+  background-color: #25434b;
+}
