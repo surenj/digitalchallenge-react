@@ -1,4 +1,4 @@
-import './ActionButton.css';
+import styles from "./ActionButton.module.scss"
 
 interface ActionButtonProps {
   label: string;
@@ -7,7 +7,7 @@ interface ActionButtonProps {
 
 function ActionButton({ label, onClick }: ActionButtonProps) {
   return (
-    <button className="action-button" onClick={onClick}>
+    <button className={styles['action-button']} onClick={onClick}>
       {label}
     </button>
   );
